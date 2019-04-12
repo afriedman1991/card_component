@@ -1,0 +1,19 @@
+<div class="container card">
+    <div class="content">
+        {{ props.bannerMessage }}
+    </div>
+    <h4 class="title">
+      {{ props.headerTitle }}
+    </h4>
+    <div class="description">
+        <span class="bold">{{ props.boldDescription }}</span>
+        <br />
+        <span class="normal">{{ props.normalDescription }}</span>
+    </div>
+    <div class="footer">
+      <input class="form-control" placeholder="Email" />
+      <button class="submit">Submit</button>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
